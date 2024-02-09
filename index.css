@@ -1,0 +1,80 @@
+/* Resetting default margin, padding, font, and background color for HTML and body */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif; /* Setting font family */
+    background-color: #9bc8f5; /* Setting background color */
+    color: #343a40; /* Setting text color */
+    user-select: none; /* Disabling text selection */
+}
+
+/* Container styling */
+.container {
+    display: flex; /* Displaying as flex container */
+    flex-direction: column; /* Setting flex direction to column */
+    max-width: 320px; /* Setting maximum width */
+    margin: 30px auto; /* Centering horizontally with margin */
+}
+
+/* Image styling */
+img {
+    width: 150px; /* Setting width */
+    margin: 0 auto; /* Centering horizontally with margin */
+}
+
+/* Input field styling */
+input {
+    color: #212529; /* Setting text color */
+    background-color: #e9ecef; /* Setting background color */
+    border: 0; /* Removing border */
+    padding: 15px; /* Adding padding */
+    border-radius: 8px; /* Adding border radius */
+    font-size: 20px; /* Setting font size */
+    text-align: center; /* Centering text */
+    font-family: 'Rubik', sans-serif; /* Setting font family */
+    margin: 10px 0; /* Adding margin */
+}
+
+/* Button styling */
+button {
+    color: #ffffff; /* Setting text color */
+    background-color: #6c757d; /* Setting background color */
+    border: 0; /* Removing border */
+    padding: 15px; /* Adding padding */
+    border-radius: 8px; /* Adding border radius */
+    font-size: 20px; /* Setting font size */
+    text-align: center; /* Centering text */
+    font-family: 'Rubik', sans-serif; /* Setting font family */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #495057; /* Changing background color on hover */
+    cursor: pointer; /* Changing cursor to pointer on hover */
+}
+
+/* Shopping list styling */
+ul {
+    list-style-type: none; /* Removing list bullets */
+    padding: 0; /* Removing default padding */
+    display: flex; /* Displaying as flex container */
+    flex-wrap: wrap; /* Allowing items to wrap */
+    gap: 10px; /* Adding gap between items */
+}
+
+/* List item styling */
+ul li {
+    font-size: 20px; /* Setting font size */
+    background-color: #ffffff; /* Setting background color */
+    padding: 15px; /* Adding padding */
+    border-radius: 8px; /* Adding border radius */
+    flex-grow: 1; /* Allowing items to grow */
+    text-align: center; /* Centering text */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+}
+
+/* List item hover effect */
+ul li:hover {
+    background-color: #f1f1f1; /* Changing background color on hover */
+    cursor: pointer; /* Changing cursor to pointer on hover */
+}
